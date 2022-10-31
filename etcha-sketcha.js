@@ -232,9 +232,9 @@ function shiftShade() {
             let green = bgColor.match(/\d+/g)[1];
             let blue = bgColor.match(/\d+/g)[2];
 
-            let r = red - (red / 10);
-            let g = green - (green / 10);
-            let b = blue - (blue / 10);
+            let r = red - (red / 5);
+            let g = green - (green / 5);
+            let b = blue - (blue / 5);
 
             console.log("r = " + r + ", g = " + g + ", b = " + b);
 
